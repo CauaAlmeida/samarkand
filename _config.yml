@@ -2,10 +2,10 @@
 # --- USER CONFIGURATION --- #
 ##############################
 
-title: Exocore
-description: A navigable, organised hypertext personal knowledge base
-url: https://exocore.netlify.app
-repository: remiliacorp/exocore
+title: Os Pessegos Dourados de Samarkand
+description: Repositório de conhecimento para-acadêmico.
+url: https://pessegosdourados.netlify.app
+repository: cauaalmeida/ofimdaviagem
 
 ##############################################
 # --- ANALYTICS CONFIGURATION (OPTIONAL) --- #

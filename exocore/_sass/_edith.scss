@@ -4,37 +4,37 @@
 
 /* --- Body Colors --- */
 
-$background: #000000;
-$color-inner-divs: black;
-$color-items: black;
+$background: white;
+$color-inner-divs: white;
+$color-items: blue;
 
 
 /* --- Text Colors --- */
-$color-text: white;
-$color-subtext: white;
+$color-text: black;
+$color-subtext: grey;
 $color-code: pink;
-$internal-links: orange;
-$external-links: chocolate;
+$internal-links: blue;
+$external-links: darkblue;
 $invalid-links: $internal-links;
-$color-primary: orange;
-$color-secondary: blue;
+$color-primary: blue;
+$color-secondary: orange;
 $color-box-shadow: none;
 
 
 /* --- Borders --- */
-$article-border: 1px solid white;
-$sidebar-border: 1px solid white;
+$article-border: 1px solid blue;
+$sidebar-border: 1px solid blue;
 $prev-next-border: none;
 $color-item-border: none;
 $border-radius: 0px;
 
 /* --- Embeds, Sidenote and Footnote Colors --- */
-$embed-border: thin solid orange;
+$embed-border: thin solid blue;
 $color-embed-background: black;
-$color-embed-title: orange;
+$color-embed-title: blue;
 $color-embed-text: white;
 
-$footnote-border: thin solid orange;
+$footnote-border: thin solid blue;
 $color-footnote-background: black;
 $color-footnote-text: white;
 
@@ -364,9 +364,10 @@ article {
 .sidebar-card a, .related a {
     margin-bottom: 0.5em;
     text-decoration: underline;
+    color: black;
 }
 sidebar-card a:hover{
-    color:$color-text;
+    color:blue;
 }
 
 .profile-pic {
@@ -618,7 +619,7 @@ img+em {
 .index-item, .archive-item, .library-item {
     width: 95%;
     margin: auto;
-    background-color: $color-items;
+    background-color: white;
     text-align: left;
     margin-bottom: 1em;
     padding: 0.5em;
@@ -644,7 +645,7 @@ font-weight: bold;
 
 .index-item-date, .library-item-filetype {
     font-weight: normal;
-    float: right;
+    float: none;
 }
 
 .index-item-topic {
@@ -762,7 +763,7 @@ font-weight: normal;
     margin-top: 10px;
     margin-bottom: 10px;
     &:hover {
-    background-color: $color-items;}
+    background-color: white;}
 }
 
 .tag-grid {
@@ -906,7 +907,7 @@ table, tr, td {
     border-collapse: collapse;
     padding: 0.5em;
     margin: auto;
-    background-color: $color-inner-divs;
+    background-color: white;
 }
 
 
